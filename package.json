@@ -1,0 +1,19 @@
+{
+  "name": "react-envify-benchmark",
+  "version": "0.0.0",
+  "description": "Compare the bundle times of React using envify and loose-envify",
+  "main": "bench.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "envify": "^3.4.0",
+    "loose-envify": "^1.0.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "license": "MIT"
+}
